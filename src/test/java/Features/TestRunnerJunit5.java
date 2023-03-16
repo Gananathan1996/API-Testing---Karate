@@ -47,3 +47,29 @@ class TestRunnerJunit5 {
 	}
 
 }
+
+//package Features;
+//
+//import com.intuit.karate.junit5.Karate;
+//
+//class TestRunnerJunit5 {
+//
+//    @Karate.Test
+//    Karate testSample() {
+//        return Karate.run("//featurename").relativeTo(getClass());
+//    }
+//    
+//    @Karate.Test
+//    Karate testTags() {
+//        return Karate.run("//featurename").tags("@tag_name").relativeTo(getClass());
+//    }
+//
+//    @Karate.Test
+//    Karate testSystemProperty() {
+//        return Karate.run("classpath:path of the feature")
+//                .tags("@tag_name")
+//                .karateEnv("env name")
+//                .systemProperty("karate.env", "env name");
+//    }
+
+}
