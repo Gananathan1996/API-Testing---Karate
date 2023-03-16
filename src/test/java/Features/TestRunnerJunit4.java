@@ -24,7 +24,6 @@
 //        		.reportDir("//path")
 //        		.tags("@smoke")
 //        		.parallel(5);
-//        
 //        assertTrue(results.getErrorMessages(), results.getFailCount() == 0);
 //    }
 //    

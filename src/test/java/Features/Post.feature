@@ -1,7 +1,7 @@
 Feature: All about post request
 
   Background: 
-    * url ''\
+    * url baseURL
     * def requestPayload =
       """
       {

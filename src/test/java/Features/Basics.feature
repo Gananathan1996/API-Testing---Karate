@@ -9,7 +9,7 @@ Scenario: Basic Scenario 1
  * print 'total' + (a + b)
  
  Scenario: Basic Scenario 2 
- // Simple json reader
+ #Simple json reader
  
  * def jsonObject1 =
  """
@@ -32,7 +32,7 @@ Scenario: Basic Scenario 1
  * print jsonObject1[1].id 
  
   Scenario: Basic Scenario 3 
- // complex json reader
+ # complex json reader
  
  * def jsonObject2 =
  """

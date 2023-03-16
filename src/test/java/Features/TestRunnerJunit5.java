@@ -1,11 +1,10 @@
 package Features;
 
-import com.intuit.karate.junit5.Karate;
-
-import cucumber.api.java.Before;
-
+//import com.intuit.karate.junit5.Karate;
+//
+//import cucumber.api.java.Before;
 //class TestRunnerJunit5 {
-
+//
 //
 //    @Karate.Test
 //    Karate testSample() {
@@ -27,49 +26,24 @@ import cucumber.api.java.Before;
 //
 //}
 
-import com.intuit.karate.Results;
-import com.intuit.karate.Runner;
-import static org.junit.jupiter.api.Assertions.*;
-import org.junit.jupiter.api.Test;
-
-class TestRunnerJunit5 {
-	
-	@Before
-	public void before() {
-		System.setProperty("Karate.env", "dev");
-
-	}
-
-	@Test
-	void testParallel() {
-		Results results = Runner.path("classpath:Features").tags("@primary").parallel(5);
-		assertEquals(0, results.getFailCount(), results.getErrorMessages());
-	}
-
-}
-
-//package Features;
-//
-//import com.intuit.karate.junit5.Karate;
-//
+//import com.intuit.karate.Results;
+//import com.intuit.karate.Runner;
+//import cucumber.api.java.Before;
+//import static org.junit.jupiter.api.Assertions.*;
+//import org.junit.jupiter.api.Test;
 //class TestRunnerJunit5 {
+//	@Before
+//	public void before() {
+//		System.setProperty("Karate.env", "dev");
 //
-//    @Karate.Test
-//    Karate testSample() {
-//        return Karate.run("//featurename").relativeTo(getClass());
-//    }
-//    
-//    @Karate.Test
-//    Karate testTags() {
-//        return Karate.run("//featurename").tags("@tag_name").relativeTo(getClass());
-//    }
+//	}
 //
-//    @Karate.Test
-//    Karate testSystemProperty() {
-//        return Karate.run("classpath:path of the feature")
-//                .tags("@tag_name")
-//                .karateEnv("env name")
-//                .systemProperty("karate.env", "env name");
-//    }
+//	@Test
+//	void testParallel() {
+//		Results results = Runner.path("classpath:Features").tags("@primary").parallel(5);
+//		assertEquals(0, results.getFailCount(), results.getErrorMessages());
+//	}
+//
+//}
 
-}
+
