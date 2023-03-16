@@ -3,8 +3,7 @@
     * def requestPayload =
       """
       {
-      "name" : "Gana",
-      "Id" : "043"
+      "name" : "Gananathan",
       }
       """
     * def reqPayload = read('classpath:#path_of_the_file')
@@ -16,5 +15,5 @@
     When method PUT
     Then status 202
     And print response
-    And match $.name == 'Gana'
+    And match $.name == 'Gananathan'
     And match $.id == '#present'
