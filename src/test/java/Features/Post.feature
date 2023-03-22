@@ -1,7 +1,7 @@
 Feature: All about post request
 
   Background: 
-    * url baseURL
+    * url BaseURL
     * def requestPayload =
       """
       {
@@ -29,3 +29,4 @@ Feature: All about post request
     And match $.name == 'Ganat'
     And match $.id == '#present'
 
+ 

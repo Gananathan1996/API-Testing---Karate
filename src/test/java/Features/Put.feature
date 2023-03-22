@@ -1,3 +1,5 @@
+Feature: PUT request
+
   Background: 
     * url baseURL
     * def requestPayload =
